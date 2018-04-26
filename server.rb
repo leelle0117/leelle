@@ -1,18 +1,11 @@
 # encoding : UTF-8
 
 require 'sinatra'
+require './block'
+
+b = Blockchain.new
 
 
 get '/' do
-	"block!!"
-end
-
-get '/mine' do
-	'mining!'
-
-end
-
-get '/yours' do
-	'hello my friend!!'
-
+	b.mining
 end
