@@ -3,16 +3,15 @@
 require 'sinatra'
 require './block'
 
-b = Blockchain.new
+b = BlockChain.new
 
 
 get '/' do
-	"지금 전체 블럭수는 : " + b.my_blocks.to_s
+	"Total number of blocks : " + b.my_blocks.to_s
 end
 
 get '/mine' do
-	b.mining
-	"마이닝을 하였습니다."
+	b.mining.to_s
 end
 
 
