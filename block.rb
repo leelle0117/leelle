@@ -4,7 +4,7 @@ class Dog
 		@weight = 0.5
 		@height = 3.0
 		@age = 1
-		@university =""
+		@university = ""
 		@name = ""
 
 	end	
@@ -22,8 +22,7 @@ class Dog
 	def naming
 		@name = "Ann"
 		puts @name
-	end	
-
+	end
 
 	def birth
 		@age = @age + 1
@@ -36,8 +35,8 @@ end
 bbb = Dog.new
 cc = Dog.new
 
+
 bbb.naming
-bbb.eat
 bbb.eat
 bbb.run
 bbb.run
@@ -46,8 +45,11 @@ bbb.birth
 bbb.birth
 bbb.birth
 
+
 cc.naming
 cc.run
+cc.eat
+cc.eat
 cc.birth
 cc.birth
 cc.birth
