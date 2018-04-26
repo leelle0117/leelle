@@ -13,6 +13,6 @@ get '/mine' do
 end
 
 get '/yours' do
-	'hello my friend'
+	'hello my friend!!'
 
 end
