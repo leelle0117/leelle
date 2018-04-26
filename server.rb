@@ -11,3 +11,8 @@ get '/mine' do
 	'mining!'
 
 end
+
+get '/yours' do
+	'hello my friend!'
+
+end
