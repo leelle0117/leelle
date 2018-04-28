@@ -9,7 +9,7 @@ class Blockchain
 		
 	def mining
         begin
-        	nonce = rand(100)
+        	nonce = rand(1000)
 		end while nonce != 0
 		
 		block = {
